@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias de Deportes | Portal de Noticias</title>
+    <!-- CSS General de la web -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Exclusivo para la sección Deportes -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Edición Perú | Miércoles, 2 de Septiembre de 2026</span>
+            <span>Síguenos en redes sociales</span>
+        </div>
+    </div>
+
+    <!-- HEADER LOGO -->
+    <header class="header-main">
+        <div class="container">
+            <a href="index.html" class="logo">LA REPÚBLICA <span>PE</span></a>
+        </div>
+    </header>
+
+    <!-- NAVEGACIÓN PRINCIPAL -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Nacionales.html">Nacionales</a></li>
+                <li><a href="Deportes.html" class="active">Deportes</a></li>
+                <li><a href="Sociedad.html">Sociedad</a></li>
+                <li><a href="Espectaculos.html">Espectaculos</a></li>
+                <li><a href="Cultura.html">Cultura</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CABECERA DE LA SECCIÓN DEPORTES -->
+    <section class="sports-header">
+        <div class="container">
+            <h1 class="sports-title">Deportes</h1>
+            <p class="sports-description">Fútbol nacional e internacional, polideportivo y cobertura de eventos en vivo.</p>
+        </div>
+    </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+        <div class="main-layout">
+            
+            <!-- SECCIÓN IZQUIERDA (NOTICIAS DEPORTIVAS) -->
+            <main>
+
+                <!-- PORTADA PRINCIPAL DE DEPORTES -->
+                <article class="sports-hero">
+                    <div class="sports-hero-image">
+                        <img src="img/peru futbol.jpg" alt="Selección Peruana">
+                        <span class="sport-tag">Fútbol Nacional</span>
+                    </div>
+                    <div class="sports-hero-content">
+                        <a href="#">
+                            <h2>Selección Peruana define su lista final de convocados para la fecha doble eliminatoria</h2>
+                        </a>
+                        <p>El comando técnico presentó la nómina oficial para los próximos partidos cruciales de la clasificación internacional. Revisa las principales novedades en el ataque.</p>
+                    </div>
+                </article>
+
+                <!-- MOSAICO DE NOTICIAS DEPORTIVAS -->
+                <section class="sports-grid">
+                    
+                    <article class="sports-card">
+                        <div class="sports-card-img">
+                            <img src="img/deporte1.jpg" alt="Polideportivo">
+                            <span class="sport-tag">Polideportivo</span>
+                        </div>
+                        <div class="sports-card-body">
+                            <a href="#">
+                                <h3>Atletas nacionales logran tres medallas de oro en el campeonato sudamericano</h3>
+                            </a>
+                            <p>Destacada actuación de la delegación en las disciplinas de atletismo y natación durante la última jornada.</p>
+                        </div>
+                    </article>
+
+                    <article class="sports-card">
+                        <div class="sports-card-img">
+                            <img src="img/deporte2.jpg" alt="Fútbol Internacional">
+                            <span class="sport-tag">Fútbol Int.</span>
+                        </div>
+                        <div class="sports-card-body">
+                            <a href="#">
+                                <h3>Definidos los cruces de la fase de grupos para la Liga de Campeones</h3>
+                            </a>
+                            <p>El sorteo dejó emparejamientos de alto impacto y un 'grupo de la muerte' que promete partidos memorables.</p>
+                        </div>
+                    </article>
+
+                    <article class="sports-card">
+                        <div class="sports-card-img">
+                            <img src="img/basquet.jpg" alt="Básquetbol">
+                            <span class="sport-tag">Básquet</span>
+                        </div>
+                        <div class="sports-card-body">
+                            <a href="#">
+                                <h3>Gran final del torneo nacional se decidirá en el último juego de la serie</h3>
+                            </a>
+                            <p>Ambos equipos llegan empatados tras un vibrante sexto encuentro definido en los últimos segundos.</p>
+                        </div>
+                    </article>
+
+                    <article class="sports-card">
+                        <div class="sports-card-img">
+                            <img src="img/team peru.avif" alt="E-Sports">
+                            <span class="sport-tag">E-Sports</span>
+                        </div>
+                        <div class="sports-card-body">
+                            <a href="#">
+                                <h3>Equipo peruano clasifica a la etapa eliminatoria del torneo mundial de videojuegos</h3>
+                            </a>
+                            <p>La escuadra nacional avanzó invicta en su grupo tras superar a los favoritos del certamen.</p>
+                        </div>
+                    </article>
+
+                </section>
+
+            </main>
+
+            <!-- BARRA LATERAL (TABLA / RESULTADOS) -->
+            <aside>
+                <!-- WIDGET TABLA DE POSICIONES -->
+                <div class="sidebar-box sports-widget">
+                    <h2 class="sidebar-title">Tabla Liga Local</h2>
+                    <table class="scoreboard-table">
+                        <thead>
+                            <tr>
+                                <th>Pos</th>
+                                <th>Club</th>
+                                <th>PJ</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td><strong>Universitario</strong></td>
+                                <td>12</td>
+                                <td><strong>28</strong></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td><strong>Alianza Lima</strong></td>
+                                <td>12</td>
+                                <td><strong>26</strong></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><strong>Sp. Cristal</strong></td>
+                                <td>12</td>
+                                <td><strong>24</strong></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><strong>Melgar</strong></td>
+                                <td>12</td>
+                                <td><strong>21</strong></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><strong>Cienciano</strong></td>
+                                <td>12</td>
+                                <td><strong>18</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- WIDGET PRÓXIMOS PARTIDOS -->
+                <div class="sidebar-box sports-widget">
+                    <h2 class="sidebar-title">Próxima Fecha</h2>
+                    <ul class="matches-list">
+                        <li>
+                            <span class="match-teams">Alianza Lima vs. Cienciano</span>
+                            <span class="match-time">Viernes - 20:00 hrs</span>
+                        </li>
+                        <li>
+                            <span class="match-teams">Sp. Cristal vs. Melgar</span>
+                            <span class="match-time">Sábado - 15:30 hrs</span>
+                        </li>
+                        <li>
+                            <span class="match-teams">Universitario vs. Utc</span>
+                            <span class="match-time">Domingo - 18:00 hrs</span>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economía</a></li>
+                        <li><a href="#">Mundo</a></li>
+                        <li><a href="#">Deportes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Grupo La República</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Políticas de privacidad</a></li>
+                        <li><a href="#">Anuncie con nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Lote del Día</a></li>
+                        <li><a href="#">Horóscopo</a></li>
+                        <li><a href="#">Edición Impresa</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Grupo La República Digital. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

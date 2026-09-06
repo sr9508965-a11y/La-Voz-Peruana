@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto y Redacción | Portal de Noticias</title>
+    <!-- CSS General de la web -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Exclusivo para la sección Contacto -->
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Edición Perú | Miércoles, 2 de Septiembre de 2026</span>
+            <span>Síguenos en redes sociales</span>
+        </div>
+    </div>
+
+    <!-- HEADER LOGO -->
+    <header class="header-main">
+        <div class="container">
+            <a href="index.html" class="logo">LA REPÚBLICA <span>PE</span></a>
+        </div>
+    </header>
+
+    <!-- NAVEGACIÓN PRINCIPAL -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Nacionales.html">Nacionales</a></li>
+                <li><a href="Deportes.html">Deportes</a></li>
+                <li><a href="Sociedad.html">Sociedad</a></li>
+                <li><a href="Espectaculos.html">Espectaculos</a></li>
+                <li><a href="Cultura.html">Cultura</a></li>
+                <li><a href="Contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CABECERA DE LA SECCIÓN CONTACTO -->
+    <section class="contact-header">
+        <div class="container">
+            <h1 class="contact-title">Contacto y Redacción</h1>
+            <p class="contact-description">Envíanos tus sugerencias, denuncias ciudadanas o consultas comerciales.</p>
+        </div>
+    </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+        <div class="main-layout">
+            
+            <!-- FORMULARIO DE CONTACTO -->
+            <main>
+                <div class="contact-card">
+                    <h2>Escríbenos un mensaje</h2>
+                    <p class="form-instruction">Completa el siguiente formulario y nos pondremos en contacto a la brevedad.</p>
+                    
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="form-group">
+                            <label for="fullname">Nombre y Apellido *</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Ingresa tu nombre completo" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico *</label>
+                                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Teléfono de contacto</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+51 987 654 321">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Motivo de contacto *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="denuncia">Denuncia Ciudadana / Carta al Director</option>
+                                <option value="redaccion">Consulta a la Redacción</option>
+                                <option value="publicidad">Publicidad y Comercial</option>
+                                <option value="suscripciones">Suscripciones y Edición Impresa</option>
+                                <option value="sugerencia">Sugerencia web</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje / Detalle de la información *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Escribe aquí tu mensaje..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </main>
+
+            <!-- INFORMACIÓN INSTITUCIONAL DE CONTACTO -->
+            <aside>
+                <div class="sidebar-box contact-info-box">
+                    <h2 class="sidebar-title">Oficina Central</h2>
+                    <ul class="info-list">
+                        <li>
+                            <strong>Dirección:</strong>
+                            <p>Av. Jirón Camaná 320, Cercado de Lima, Perú</p>
+                        </li>
+                        <li>
+                            <strong>Mesa de Partes / Teléfono:</strong>
+                            <p>+51 (01) 710-8900</p>
+                        </li>
+                        <li>
+                            <strong>Mesa de Redacción:</strong>
+                            <p>redaccion@larepublica.pe</p>
+                        </li>
+                        <li>
+                            <strong>Publicidad Comercial:</strong>
+                            <p>ventas@larepublica.pe</p>
+                        </li>
+                        <li>
+                            <strong>Horario de Atención:</strong>
+                            <p>Lunes a Viernes: 08:00 hrs - 18:00 hrs</p>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Secciones</h4>
+                    <ul>
+                        <li><a href="#">Política</a></li>
+                        <li><a href="#">Economía</a></li>
+                        <li><a href="#">Mundo</a></li>
+                        <li><a href="#">Deportes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Grupo La República</h4>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Políticas de privacidad</a></li>
+                        <li><a href="#">Anuncie con nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Lote del Día</a></li>
+                        <li><a href="#">Horóscopo</a></li>
+                        <li><a href="#">Edición Impresa</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Grupo La República Digital. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
